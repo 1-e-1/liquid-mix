@@ -1,0 +1,16 @@
+dataset,split_pair,image_overlap,source_id_overlap
+pokemon,train-val,0,0
+pokemon,train-test,0,0
+pokemon,val-test,0,0
+coco1k,train-val,0,0
+coco1k,train-test,0,0
+coco1k,val-test,0,0
+coco_karpathy,train-val,0,0
+coco_karpathy,train-test,0,0
+coco_karpathy,val-test,0,0
+flickr8k,train-val,0,0
+flickr8k,train-test,0,0
+flickr8k,val-test,0,0
+flickr30k,train-val,0,0
+flickr30k,train-test,0,0
+flickr30k,val-test,0,0

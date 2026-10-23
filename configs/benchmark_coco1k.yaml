@@ -1,0 +1,40 @@
+dataset:
+  name: coco2014-1k
+  source: coco2014_zip
+  image_zip: MS COCO 2014.zip
+  annotation_zip: MS COCO Captions.zip
+  processed_dir: data/processed/coco2014_1k
+  train_limit: 5000
+  val_limit: 1000
+  test_limit: 1000
+  seed: 42
+  use_5k_part: true
+
+clip:
+  model_name: openai/clip-vit-base-patch32
+  local_files_only: true
+  batch_size: 64
+
+adapter:
+  methods:
+    - residual_fluidmix
+  epochs: 20
+  batch_size: 128
+  lr: 0.0003
+  weight_decay: 0.0001
+  hidden_dim: 128
+  field_grid: 4
+  steps: 4
+  dt: 0.2
+  diffusion: 0.03
+  reaction: 0.5
+  num_heads: 4
+  seed: 13
+  device: auto
+  negative_offset: 17
+  gradient_clip: 1.0
+  clip_scale: 1.0
+  contrastive_weight: 0.1
+  contrastive_temperature: 0.07
+  contrastive_batch_size: 16
+  hard_negatives_per_positive: 2

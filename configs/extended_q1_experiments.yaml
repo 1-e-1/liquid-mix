@@ -1,0 +1,71 @@
+protocol:
+  seed: 13
+  epochs: 3
+  query_batch_size: 48
+  score_batch_size: 1024
+  hard_candidates: 12
+  temperature: 0.07
+  learning_rate: 0.0003
+  weight_decay: 0.0001
+  gradient_clip: 1.0
+  geometry_weight: 0.05
+  scale_weight: 0.001
+  mix_weight_min: 0.0
+  mix_weight_max: 2.0
+  mix_weight_step: 0.05
+  top_k: 200
+  bootstrap_samples: 10000
+  hidden_dim: 128
+  token_count: 4
+  num_heads: 4
+  field_grid: 4
+  steps: 4
+  dt: 0.2
+  diffusion: 0.03
+  reaction: 0.5
+
+datasets:
+  - name: pokemon
+    config: configs/clip_vlm_pokemon.yaml
+    feature_cache: results/q1_candidate_retrieval_pokemon_features
+    top_k: 80
+    split_protocol: fixed project split, 240/80/80
+  - name: coco1k
+    config: configs/benchmark_coco1k.yaml
+    feature_cache: results/q1_fluidmix_coco1k
+    split_protocol: fixed controlled subset, 5000/1000/1000
+  - name: coco_karpathy
+    config: configs/benchmark_coco_karpathy.yaml
+    feature_cache: results/q1_extended/features/coco_karpathy
+    split_protocol: Karpathy-style fixed split, 10000/5000/5000
+  - name: flickr8k
+    config: configs/benchmark_flickr8k_full.yaml
+    feature_cache: results/q1_fluidmix_flickr8k_full
+    split_protocol: official fixed split, 6000/1000/1000
+  - name: flickr30k
+    config: configs/benchmark_flickr30k_large.yaml
+    feature_cache: results/q1_fluidmix_flickr30k_large
+    split_protocol: fixed split, 10000/1000/1000
+
+models:
+  - symmetric_mlp
+  - low_rank_bilinear
+  - gated_multimodal
+  - bidirectional_cross_attention
+  - late_interaction
+  - transformer_cross_encoder
+  - adr
+
+ablations:
+  adr_without_advection:
+    use_advection: false
+    use_diffusion: true
+    use_reaction: true
+  adr_without_diffusion:
+    use_advection: true
+    use_diffusion: false
+    use_reaction: true
+  adr_without_reaction:
+    use_advection: true
+    use_diffusion: true
+    use_reaction: false

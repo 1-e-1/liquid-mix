@@ -1,0 +1,14 @@
+datasets
+matplotlib
+numpy
+pandas
+peft
+Pillow
+pypandoc_binary
+pyyaml
+scikit-learn
+scipy
+torch
+torchvision
+tqdm
+transformers

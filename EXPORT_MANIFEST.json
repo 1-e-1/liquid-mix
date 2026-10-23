@@ -1,0 +1,700 @@
+{
+  "export_date": "2026-10-24",
+  "owner": "1-e-1",
+  "source_files": [
+    {
+      "path": "pyproject.toml",
+      "source_sha256": "857de9815034116ca547698c406389f45101dc7ba902ee8a9acc1d9477e6c5dd"
+    },
+    {
+      "path": "README.md",
+      "source_sha256": "011e9a93e42a5ac26a5b7a7d0826b2e27b59e4ac3fc682b161f928d207a8fd21"
+    },
+    {
+      "path": "requirements.txt",
+      "source_sha256": "4ccbb5e8b4fd660348dc82f30ebd21edbe8e8de7393b640359d37eb3395e00eb"
+    },
+    {
+      "path": "configs/benchmark_coco1k.yaml",
+      "source_sha256": "1d023c67104efcc412135ef19b392607e2214a86806c6316456b88de5c2733e3"
+    },
+    {
+      "path": "configs/benchmark_coco5k.yaml",
+      "source_sha256": "88dd5831dfcb2d824f9164f2b8ab190564dcba4f50473b3da5381949e7a721e2"
+    },
+    {
+      "path": "configs/benchmark_coco_karpathy.yaml",
+      "source_sha256": "376ddb6a31d6cc02869a8da31ee8bb4264c8172dabc8e7e78f1b8bd148ad3a10"
+    },
+    {
+      "path": "configs/benchmark_flickr30k_large.yaml",
+      "source_sha256": "f13ad425429621338f862b1b8ab411cf8f2a59ef4ea501a0d577834d3140d5fd"
+    },
+    {
+      "path": "configs/benchmark_flickr8k_full.yaml",
+      "source_sha256": "580cedcebf358f38f6b9eeaac969fd0d3560c40de77dd5944c2437369c4e1225"
+    },
+    {
+      "path": "configs/clip_vlm_flickr30k.yaml",
+      "source_sha256": "5d14ba5f19966702ff504fcfd8b41cc032e5dd8fd0633618905d6bffbb96a6a9"
+    },
+    {
+      "path": "configs/clip_vlm_flickr8k.yaml",
+      "source_sha256": "599dcb3aa45d9531ca24b6fe3a3e41b95a213d4f5da74d9ad0205468711eefcc"
+    },
+    {
+      "path": "configs/clip_vlm_pokemon.yaml",
+      "source_sha256": "d5ab9968acf80769dbaed81c29c883812f2a5dd10d9443a9a8b5b2f9433989eb"
+    },
+    {
+      "path": "configs/extended_q1_experiments.yaml",
+      "source_sha256": "98b35e261232e15078eaa7864d6b0018897dd13a238a98edd89e9e448fae770b"
+    },
+    {
+      "path": "configs/pure_fluid_coco1k.yaml",
+      "source_sha256": "2b6961800197ddba5dce9b33ef3a01c16481b52b7177126500cbb9c806a4cf61"
+    },
+    {
+      "path": "configs/pure_fluid_coco5k.yaml",
+      "source_sha256": "142f33fdf7c6b58767a1f24780a8dd007ad825d88e45d44eec91fd43aff62762"
+    },
+    {
+      "path": "configs/pure_fluid_flickr30k.yaml",
+      "source_sha256": "cfc8fec4e3ef74f924df9b79a2f37c475a412649989decbfbf516df66cabb565"
+    },
+    {
+      "path": "configs/pure_fluid_flickr30k_large.yaml",
+      "source_sha256": "d0c7eae86432e3ff22865b9d779bce7f339dc8c0c6e92dbe12ba6e4627055999"
+    },
+    {
+      "path": "configs/pure_fluid_flickr8k.yaml",
+      "source_sha256": "bc2129844b6f50ba58966e46ef8498351984e6a1064cc31afacf0bbf6d944b16"
+    },
+    {
+      "path": "configs/pure_fluid_flickr8k_full.yaml",
+      "source_sha256": "5c3ee65461d802221d8d604842518830fbc9dd9db5c347c17872960e7ce6713c"
+    },
+    {
+      "path": "configs/pure_fluid_pokemon.yaml",
+      "source_sha256": "585c311614ab4bb84e9285af7f2073bfbd7aa17c56c9766b281fb8b52be2cd92"
+    },
+    {
+      "path": "docs/experiment_protocol.md",
+      "source_sha256": "b94d7f4015982903ba7c06079ee13ce56ae861e37ac4bd88067e6f1b9f67b4ce"
+    },
+    {
+      "path": "paper/fluidmix_manuscript.md",
+      "source_sha256": "b8c898000e0e6a6e0784d4eae415e1dabe8f0de10366a8b086409d42d76b493e"
+    },
+    {
+      "path": "paper/fluidmix_manuscript_q1.md",
+      "source_sha256": "fc058bff355c6f6045cc4f3514c93f2bd2fb5373550296615e4ab99b9e8db454"
+    },
+    {
+      "path": "paper/fluidmix_manuscript_q1_cn.md",
+      "source_sha256": "1a3639af4ea46767f543e55fdf4b904d9dae1f9a984e066fa3910b4374f8443a"
+    },
+    {
+      "path": "paper/q1_extended_experiments_manuscript_insert_CN.md",
+      "source_sha256": "3e57a542aaf4924dfa02f18ff2f9582add13af17f048c709eb72c43e838280f9"
+    },
+    {
+      "path": "paper/references.bib",
+      "source_sha256": "901f09750c9d88f6183d4778e76ccb138dbcf9d3f40dfbe7c4037a0c752b80ac"
+    },
+    {
+      "path": "paper/figures/clip_lora_r1_delta.png",
+      "source_sha256": "e023270f0ddb68eaa06559b1c965a01c85619268e9cf96445cbd740b9561d8ed"
+    },
+    {
+      "path": "paper/figures/five_caption_bootstrap_floor.png",
+      "source_sha256": "4ca3fdec3cc940da91767b1df373e4bff1df0234b093052b2851e2c80bd7fa2d"
+    },
+    {
+      "path": "paper/figures/five_caption_delta_grid.png",
+      "source_sha256": "3babda1808d1df7c12a6d4433b14b2ba16dc3cfd17a73220933069da4fe1aba5"
+    },
+    {
+      "path": "paper/figures/fluidmix_architecture.png",
+      "source_sha256": "14ec4d0ecd884f8b28752e1e14679d49ea143fe6c20701ded0b34e7a5b289057"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_contact_sheet.png",
+      "source_sha256": "9efa4e23f1aef94b3960a4eec5a3b0b2716b6abb8171f3579a32ff95d1ab070a"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_keyframe_00_initial_fields.png",
+      "source_sha256": "0cea22cdaa75f80472cec220981308e5f554c1c718d7160cc0db56ae0733788c"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_keyframe_01_gated_mixture.png",
+      "source_sha256": "cebedf383e0cc4a96d19be78a690d73cf46bd4cdda4c681deb564d03608253d8"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_keyframe_02_advection_diffusion.png",
+      "source_sha256": "5f317659945eddc2b5d7f8cffefbfa22e6c895615816baba744ceb11f31dab5d"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_keyframe_03_reaction_evidence.png",
+      "source_sha256": "041db33155856a22bbdee7a5a681844ac4fe7e090792590ba6618d1dafbf6dda"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_keyframe_04_residual_score.png",
+      "source_sha256": "a89e4414e4fda141aeba796c96b1c051404ede88b2eab335b73dca3a9f60b6b3"
+    },
+    {
+      "path": "paper/figures/academic/anchor_transfer_summary.png",
+      "source_sha256": "f68d81d61b8b012e0ce388a02f8b45e8b949fdaaf20d459bd65b439951c83f20"
+    },
+    {
+      "path": "paper/figures/academic/baseline_strength_vs_gain.png",
+      "source_sha256": "2de1f6f81f3a591b04f3507b6740cc64a17207197c7dd6f2f03bcc31abaaf708"
+    },
+    {
+      "path": "paper/figures/academic/clip_lora_vs_fluidmix_r1_gain.png",
+      "source_sha256": "095abd4166fa54393f47a2a1076dd28e83e72ebbcd8f392e3da061daabd42065"
+    },
+    {
+      "path": "paper/figures/academic/experiment_protocol.png",
+      "source_sha256": "94af69050d2864319579489d558224baff8303e0afdb84656b3c6b6d80fecea2"
+    },
+    {
+      "path": "paper/figures/academic/hard_candidate_delta_heatmaps.png",
+      "source_sha256": "3845ce6ae9b6525cc98854d1b47e7f7822890866bce82d5c2eb409bc61780e16"
+    },
+    {
+      "path": "paper/figures/academic/seed_stability_boxplot.png",
+      "source_sha256": "bbca7cb0f3ea394cc1feb91f5c9dcd1f047e8d0f9461f7e7c21c82ce1b641af7"
+    },
+    {
+      "path": "paper/figures/complete_ablation/complete_ablation_absolute_r1.png",
+      "source_sha256": "a0128e649001f3024a58022ebf5e9f0ec3128243e962b76f1c0608e1a28890d5"
+    },
+    {
+      "path": "paper/figures/complete_ablation/complete_ablation_delta_r1_heatmap.png",
+      "source_sha256": "6be6c41d27fefeba123aa6afc266f1004f190592a0630bce2d204495ab1d51aa"
+    },
+    {
+      "path": "paper/figures/complete_ablation/complete_ablation_lambda_sweeps.png",
+      "source_sha256": "d153b160de8d034e76c7356edd4bfed0c4067f4ad20f6dfdd7a048e6711a887c"
+    },
+    {
+      "path": "paper/figures/complete_ablation/complete_ablation_mean_delta.png",
+      "source_sha256": "21bf8270f52d3a24e46dc29d476c22d0bda1351c1ddd6898d7836c6bfd86e4cf"
+    },
+    {
+      "path": "paper/figures/complete_ablation/complete_ablation_training_curves.png",
+      "source_sha256": "041229f43ffdbd299e4cf7fc6850cbc27ed9e80c07eed7a4cfc9b3624e598f28"
+    },
+    {
+      "path": "paper/figures/experiment_design_results/ablation_r1_comparison.png",
+      "source_sha256": "0cd6a776a4c56a4f33faef43498708ffda87bbd856f16a5c65321afafa2d7355"
+    },
+    {
+      "path": "paper/figures/experiment_design_results/exp1_clip_lora_ours_r1_gain.png",
+      "source_sha256": "99c647e2ef4dea42fe5f07067819cc222fff0be01a43d0a8af9d3a6186265c46"
+    },
+    {
+      "path": "paper/figures/experiment_design_results/exp2_anchor_transfer_delta_heatmap.png",
+      "source_sha256": "050b00d9f5ecf0d826d9ddf631fe24abcb0b44f7f143931ea506a0b882ce41f7"
+    },
+    {
+      "path": "paper/figures/experiment_design_results/exp3_anchor_mean_delta.png",
+      "source_sha256": "2e37f85c8cc9e7420b32c198b97f18b02c8f201a0c6d1b6adcd2c677ed61220e"
+    },
+    {
+      "path": "paper/figures/experiment_design_results/exp3_anchor_strength_vs_gain.png",
+      "source_sha256": "093473facfeeb4cdbfadd1907f46e78f03be9a464818861e70734ea19d42212b"
+    },
+    {
+      "path": "paper/figures/experiment_design_results/exp3_seed_stability_boxplot.png",
+      "source_sha256": "46c841588e3059c22d24c548fe77a4f927c3b260aa63d9f29d6bfdef4413df09"
+    },
+    {
+      "path": "paper/figures/experiment_design_results/lambda_sweep_curves.png",
+      "source_sha256": "702f7b9e8a69ecf483cea5261878de8712d3cbe94fe524bd51b0df4db2ad91c0"
+    },
+    {
+      "path": "paper/figures/experiment_design_results/training_curves_candidate_residual.png",
+      "source_sha256": "db43f08b71aba67d6282637aae9c4bf6232af276ef7a9957f4ce921db95825b3"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_000.png",
+      "source_sha256": "0cea22cdaa75f80472cec220981308e5f554c1c718d7160cc0db56ae0733788c"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_001.png",
+      "source_sha256": "18a428f5f937cd4725a01a62160fe9912b27afe2b1c98073bd3b5cdb8a0a9836"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_002.png",
+      "source_sha256": "1b36dfcba6c6edac2a6b796fba13006177170c8757a8a1dac451efe8f2d31b1d"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_003.png",
+      "source_sha256": "11bc8dd0c07d467eee99072dbc2dec57d76e1017370a848982e5d026d9c38041"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_004.png",
+      "source_sha256": "b19fa48c16862ebe00f2a4603ca563bb51a7d6cb6ce32a905a1216743efe9b69"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_005.png",
+      "source_sha256": "5489564a5a2d4b89f914c5b2882309073470396e8dbde2fdb8a5712594b82093"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_006.png",
+      "source_sha256": "b88863da0a9c08dad688e84ba9e6c0e81d52be33258e620c6857d66f02c06867"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_007.png",
+      "source_sha256": "4fd0505d0c15dc7e4a4bb4e6d5e9b35a2736a838e971028781fe4f306007ae03"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_008.png",
+      "source_sha256": "5bb61be99aaeb2d01a4a574629f130545089f8b5604d511287228203dbedc893"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_009.png",
+      "source_sha256": "e7521e2149369f4aa86ea28e54478e11dcc960536c98c7b241ed80bef96c56e9"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_010.png",
+      "source_sha256": "330cb1480891234b9307df11bbc450883b3bfbaab7ce5dee08ef999bf2996c69"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_011.png",
+      "source_sha256": "06c44c53a16997000bbbb327032128f28d68a2a0c870c81350fb22b046627e87"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_012.png",
+      "source_sha256": "cebedf383e0cc4a96d19be78a690d73cf46bd4cdda4c681deb564d03608253d8"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_013.png",
+      "source_sha256": "a3765ea397b9e70c7d1c6568556e084a7f2d358f215bd8ddfd6cb01f83726c6c"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_014.png",
+      "source_sha256": "bc98bb29a244156cca76615597cce4ac8069f5a51e88bfa87f46c1168b04d30c"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_015.png",
+      "source_sha256": "4817eda9387f2198125c5d094eeba2bbe77c2698d179ccc96df5510d88280a7d"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_016.png",
+      "source_sha256": "5a4cad3542be687efce8442419faef198f35c7b1aee4a5cae65781c34537eacc"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_017.png",
+      "source_sha256": "81adc0586c2462d5ba1680140ad9686b163b2dd31aba5d448844d8fa29845d8a"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_018.png",
+      "source_sha256": "d5c023053fa5ac4a0abb811db919e9a6e8150f79315ec97b9c9781aa017947ae"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_019.png",
+      "source_sha256": "112d57780700f3c8576ef6691a73ea24ac1134adbeeefb2f2831b13d61092f42"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_020.png",
+      "source_sha256": "1683992723d0c975f9cb39e543002213a2d4a6d07f6fc0500fb09a54f63bc7e5"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_021.png",
+      "source_sha256": "9708de7b3e396f92bc2727b0771c65572e35f83d78f9847cca4f57cc006b36a2"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_022.png",
+      "source_sha256": "094ec4ee4f804a312f89ae57b28c5e3491099765534f86d138cf5c39220bcff6"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_023.png",
+      "source_sha256": "962290494c7a5627ab1a20f74d1a4f336f9e98db6b7590b20337108ec5c0df50"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_024.png",
+      "source_sha256": "baab791a112c6dc8219b612ababed0ac2dbf6d4ec06434cf1e153dd2841f035f"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_025.png",
+      "source_sha256": "5f317659945eddc2b5d7f8cffefbfa22e6c895615816baba744ceb11f31dab5d"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_026.png",
+      "source_sha256": "86691db513a3cdab0ff63876cfeba2ef8f9997a4bdcb2547a6a8a3d1f6c0f04a"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_027.png",
+      "source_sha256": "75ed2a01ef9f42bf141a53147d9e7c2917d68ec10a40a84461f534fa9cb30c38"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_028.png",
+      "source_sha256": "22c0538b56ff7c561dd9192cd3cced0e257a6f3d777bf46de6c1c1d5bce083dc"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_029.png",
+      "source_sha256": "27123c2d662dbe2e91c6aadd573abb40cba162e7c82676df742e414512f01e6e"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_030.png",
+      "source_sha256": "c9f68f0a5e3c90379bd73d6f6a3fc2e104c30cb37cc5d335d2e860a81f2b2fb4"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_031.png",
+      "source_sha256": "f4e08fd4e14b893f5a270caf05284ea9444968cd7cbe792c9aefdade5ef92ac9"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_032.png",
+      "source_sha256": "6204915cbdb95992d1362b70301c16435d3cf71ee29f63d93603a64820ba0d81"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_033.png",
+      "source_sha256": "269bf313647d0256e237db196643951b99a26487790e5413ae2dbe1f76fd9144"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_034.png",
+      "source_sha256": "628adf48a68d016e6090ea63c2616d4b07725a3a215e9d8163f3ee3166c00393"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_035.png",
+      "source_sha256": "9c6c7ff4ef100417fc7a481f04c8444140fc048a3c53aa2fd541650306e2327c"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_036.png",
+      "source_sha256": "94c01db4ed0effbb2d65b447394e4364d9871597d7eb671861cb7f48eb987a8d"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_037.png",
+      "source_sha256": "d8fdcaddfca181a9362f8746026babfe0fc0a72bd0a266c1f43188a76555bdf4"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_038.png",
+      "source_sha256": "f226542297dd56ee5a1c0585badac7a5f7f0be0a71715fd8677fd11cf1b29dce"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_039.png",
+      "source_sha256": "041db33155856a22bbdee7a5a681844ac4fe7e090792590ba6618d1dafbf6dda"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_040.png",
+      "source_sha256": "f122b9a1df84ab2630cbba667659b2bc52fb5b81a32e248cc794140e878520ab"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_041.png",
+      "source_sha256": "351d78aa2421ac0799aed2063e6fce41b2ff1884b1a4adcf787d5395a774284b"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_042.png",
+      "source_sha256": "137028b16508170c2ad4c82da9724b4a94dc09f579a45a4aea0323166339801a"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_043.png",
+      "source_sha256": "4e55d61ce8f3959db075e8ca31aed308fbb603fbdac836f4c881e6bd8b2252c8"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_044.png",
+      "source_sha256": "a2cbb1cc49b0047236fb5b693dd98e046e116ded9933f34a1d8400e470cf3af8"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_045.png",
+      "source_sha256": "324c317dd330343e86e0dc3255f41d37a937da39bf19153151e58852628da304"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_046.png",
+      "source_sha256": "b0e73d8d43456a0765f47c2eac2f1df953e4d983880bd6338dd99b9ca6c50bb6"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_047.png",
+      "source_sha256": "73d956a1268cd3b27d773e34dee7d82a73e5030d5850afbe05aed75ebfd76054"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_048.png",
+      "source_sha256": "7bf0129411919dff9cb3aad6fb1dd8743dd93acc2bd0badd9a1ebca4af654c6c"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_049.png",
+      "source_sha256": "d94c6969f65f313fe7a9822b0a5365f717fd84c71aefe93504d29c8ae8da86a1"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_050.png",
+      "source_sha256": "60173aaa79119083db2792c8037dff3198ce352cf2d671fadfd281999afa0254"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_051.png",
+      "source_sha256": "772f85d09d632804913915268b12d4a94bc2b2cac8fe27403f780d8a05ebdca5"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_052.png",
+      "source_sha256": "b4722dd53232e2e22fe4f690f71964c6152e8e9afb7de31ffc715038be552084"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_053.png",
+      "source_sha256": "a17333a24ce1531f902f7fc71be04ef9c08db876ead9a913e9049ca53cca8713"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_054.png",
+      "source_sha256": "25da96068e8d2039b1e596be9c590f9c343d4c26b7b3d94ca1344e8724f12a99"
+    },
+    {
+      "path": "paper/figures/fluidmix_mixing_frames/frame_055.png",
+      "source_sha256": "a89e4414e4fda141aeba796c96b1c051404ede88b2eab335b73dca3a9f60b6b3"
+    },
+    {
+      "path": "paper/figures/model_structures/structure_model_family_overview.png",
+      "source_sha256": "163525776d968bcc99f36d73abdcdcc0f6590cf435d69adc652a2749a6d9404c"
+    },
+    {
+      "path": "results/final_streamlined_anchor_mean.csv",
+      "source_sha256": "d4655cb40d353c694fc96af496a7b6cf01ea9bfe00e59cec5f440ee02ef9dcc0"
+    },
+    {
+      "path": "results/final_streamlined_anchor_results.csv",
+      "source_sha256": "c89af2926f00f10c3e3a31c42f331e3bd9932677df46bc0250ec7f7f79d216fa"
+    },
+    {
+      "path": "results/final_streamlined_hard_candidate_all_anchors.csv",
+      "source_sha256": "e2c948b431dd66c700d416f54725feca2693b825f7072cf496c7570bb07f2d83"
+    },
+    {
+      "path": "results/final_streamlined_hard_candidate_mean.csv",
+      "source_sha256": "fa9217fb741c28213068f3c5397e881419e7791189be672274c9492c6c8a720a"
+    },
+    {
+      "path": "results/final_streamlined_lora_all.csv",
+      "source_sha256": "214e6e09e6fb9ff3af04392559262b3c8dc26d834a3c5ebadd5026fcb0b5da58"
+    },
+    {
+      "path": "results/final_streamlined_lora_mean.csv",
+      "source_sha256": "2ea223bc89ce6417c3f976c189a2778a20844d71138d7c43cb18c1d13fc8096a"
+    },
+    {
+      "path": "results/q1_candidate_retrieval_multiseed/aggregate_results.csv",
+      "source_sha256": "e37b69301097337d7bb9116d3842ab63c5aec11408a1a4337bdca29b82292d65"
+    },
+    {
+      "path": "results/q1_candidate_retrieval_multiseed/candidate_bootstrap_floor.png",
+      "source_sha256": "2ba76d8069dfdaf002732f232f0f34ac5c496c92b256f60ebfe1abf5f4e63494"
+    },
+    {
+      "path": "results/q1_candidate_retrieval_multiseed/candidate_delta_grid.png",
+      "source_sha256": "6e6a33bf40bdfbba0d14c59f04f4fe717e9337087ca6360a4cb6536e71c17fd0"
+    },
+    {
+      "path": "results/q1_candidate_retrieval_multiseed/candidate_plot_summary.md",
+      "source_sha256": "17737f798d5f35e05e41ba09d1e5af7f5a7c71ba1bcfe699d6101ecaca990b91"
+    },
+    {
+      "path": "results/q1_candidate_retrieval_multiseed/candidate_retrieval_multiseed_report.md",
+      "source_sha256": "1b7ddfe85ae284e0344eed336d696b06e3f629810da71d2a25d20aaaf16ab641"
+    },
+    {
+      "path": "results/q1_candidate_retrieval_multiseed/per_seed_bootstrap.csv",
+      "source_sha256": "6443bffe9aba1469ce58d1557a3c39a84ebe16f8403bb192e752463107b844d8"
+    },
+    {
+      "path": "results/q1_candidate_retrieval_multiseed/per_seed_results.csv",
+      "source_sha256": "38ddf6f6e1ebe9a9b06abf1bab61a1a35dc9c93ee5759b020f52c349504cc4cc"
+    },
+    {
+      "path": "results/q1_clip_lora_multiseed/aggregate_results.csv",
+      "source_sha256": "1b30b560080d23c16caa6c82fd563b3d452b6a8aa750d48f63c165bc27e1361b"
+    },
+    {
+      "path": "results/q1_clip_lora_multiseed/clip_lora_multiseed_report.md",
+      "source_sha256": "9412c11ca2fa5e7e45c0c5d0b939badf80aed6cc4ee51f8dfde2aa86123291f3"
+    },
+    {
+      "path": "results/q1_clip_lora_multiseed/per_seed_results.csv",
+      "source_sha256": "35f98da72684260f934f8f2c2584bc924f3b9fb455bb84e01b1afb469fe83323"
+    },
+    {
+      "path": "results/q1_extended/aggregate_metrics.csv",
+      "source_sha256": "6c11a5a3849774bca12e842a93f52fea069de9740f44c2fed8c9917aa9aab1ee"
+    },
+    {
+      "path": "results/q1_extended/efficiency.csv",
+      "source_sha256": "49ce94f3d057abf5efd2f4205404be1c3c3d1329a8cce0f82b053d09b184c08f"
+    },
+    {
+      "path": "results/q1_extended/Q1_extended_experiment_report_CN.md",
+      "source_sha256": "ca3f3e7bf8dcacee31912e6dd41ff5a2ed2f37bc2bb2095afa993c1134c142e5"
+    },
+    {
+      "path": "results/q1_extended/statistics_adr_vs_ablations.csv",
+      "source_sha256": "cd8350047e808344c0f1c3d89b32b8d7ebcf4f3d89e786cd07b1564bb949a54b"
+    },
+    {
+      "path": "results/q1_extended/statistics_adr_vs_selected_baselines.csv",
+      "source_sha256": "6fb7552e83bb4488fee1fd8ffe125f89e73090757b7c9cc82fc59af982e69e7a"
+    },
+    {
+      "path": "results/q1_extended/figures/adr_ablation.png",
+      "source_sha256": "b9cb80036eb8b890183767b23fcb679c50074d388307e835c2e1cbdf30a55ed8"
+    },
+    {
+      "path": "results/q1_extended/figures/adr_r1_confidence_intervals.png",
+      "source_sha256": "c1d3a06df23de7f86ce90ff88578076b3680be9609322b506731239e5b23fc2d"
+    },
+    {
+      "path": "results/q1_extended/figures/efficiency_tradeoff.png",
+      "source_sha256": "f798fdd644ede157d92223242f8ac81caf27849b357a534adbca650b1d88526c"
+    },
+    {
+      "path": "results/q1_extended/figures/main_r1_delta.png",
+      "source_sha256": "5a97bb910a813734b56add8ee7be1c4e6df8776c1e6041a4e56f459de8d85c5a"
+    },
+    {
+      "path": "results/q1_extended/figures/noisy_text_robustness.png",
+      "source_sha256": "7ced52cd9aa601798a49d2aac1b52b198691542eab228de6effe6e2f164dc838"
+    },
+    {
+      "path": "results/q1_extended/protocol/split_manifest_audit.csv",
+      "source_sha256": "728a62fd9a534e345c696ce636d11ecdf3fab0e37429edeabebf5e4efe3d7d6b"
+    },
+    {
+      "path": "results/q1_extended/protocol/split_overlap_audit.csv",
+      "source_sha256": "215a25f2d2fd6ee90ea8e9b9bda2fedcd66f805be433bc4bd67a0a32994d6390"
+    },
+    {
+      "path": "results/q1_extended/robustness/cross_domain.csv",
+      "source_sha256": "f2606e574b3a15e784653ac40e60cebb0a952151b98a794248d07b970dc3e608"
+    },
+    {
+      "path": "results/q1_extended/robustness/mismatched_descriptions.csv",
+      "source_sha256": "b31df4d481132ff432f5d70b1d693fa7d81fe01e3fcf772d8d95ee46c793bade"
+    },
+    {
+      "path": "results/q1_extended/robustness/noisy_text.csv",
+      "source_sha256": "ec36bc4311547f3d6f4a5da9b8ad03a70b46d8ecfbf6753fd3145523e21dfae2"
+    },
+    {
+      "path": "scripts/build_q1_extended_report.py",
+      "source_sha256": "9d3d97ea46eb9bd0a4bf3ec465f8771d6fefa063a645b6579ba76c3d19fa1e50"
+    },
+    {
+      "path": "scripts/cache_clip_features.py",
+      "source_sha256": "fcd67abb73469260a730c0df3f38c62b4af4e1913ce4f4cfcf93f47242653c35"
+    },
+    {
+      "path": "scripts/download_dataset.py",
+      "source_sha256": "ed6d02debf22cc5381d53b4585aeb0bd70925cbb366cb3cfb894cc791cd4398f"
+    },
+    {
+      "path": "scripts/measure_q1_efficiency.py",
+      "source_sha256": "f4f9391224bd659d8a2d62529054a0b6e717f1e1db5cc32e64ea7924b7023dc3"
+    },
+    {
+      "path": "scripts/run_clip_lora_baseline.py",
+      "source_sha256": "61dc7c0f8fb9a48b61ff91f8808aae91183ea5518822ff17416da14a9fa6c4ff"
+    },
+    {
+      "path": "scripts/run_clip_vlm_experiment.py",
+      "source_sha256": "a06b8046bcc55687c47edd1a77897be1c10ca16c4c207c961c8872982c465f2d"
+    },
+    {
+      "path": "scripts/run_extended_q1_experiments.py",
+      "source_sha256": "b112608ea31d7cde092201a3797a9fd2802044267937f9bb37ba6d0e30494898"
+    },
+    {
+      "path": "scripts/run_foundation_vlm_benchmark.py",
+      "source_sha256": "a82b3377ee1beb01f9e033856955793e843e193e8b5d5c356cdd68b3ab867208"
+    },
+    {
+      "path": "scripts/run_pure_fluid_experiment.py",
+      "source_sha256": "dd907733d94a6fa3d6784b8c0638dd9097905e5feba9e38da33bef7e4810948f"
+    },
+    {
+      "path": "scripts/run_q1_robustness.py",
+      "source_sha256": "ecdc2806fe339c0c78d28ae309c95c3dd1275b3da05a7a67e4179135271ee04f"
+    },
+    {
+      "path": "scripts/setup_env.ps1",
+      "source_sha256": "ff2f28e25633e2c586f8d529aa641764d223ee946cd6417f005e5ded4fd6c1a5"
+    },
+    {
+      "path": "scripts/summarize_clip_lora_seeds.py",
+      "source_sha256": "e084d65a270e1e88e5465fba4611e436300bb9f7b97d28ff8a15728112fc15af"
+    },
+    {
+      "path": "src/liquid_mix/backbone_fluid.py",
+      "source_sha256": "da28060b6e3f6fe3340cfcf5ef83edb2147ca5a75dd127ec3cdaa16f15cc8f27"
+    },
+    {
+      "path": "src/liquid_mix/clip_fusion.py",
+      "source_sha256": "c482efd9ae1603283443bbb3ce193505fa343b0f647981d7c2740e61621a2cdd"
+    },
+    {
+      "path": "src/liquid_mix/data.py",
+      "source_sha256": "82c4e01775f647c34495075b3f89f50acb4fc2dfccd6b3b9fe1dac0f5200188c"
+    },
+    {
+      "path": "src/liquid_mix/metrics.py",
+      "source_sha256": "be74528205ef4354f5a031bd1f6277832d2a09c430731010097d091f103bd040"
+    },
+    {
+      "path": "src/liquid_mix/models.py",
+      "source_sha256": "b774af020d2526062f90f866edb58df4ade0c86e27dbcdc8d6f0a780f2eb49d0"
+    },
+    {
+      "path": "src/liquid_mix/pure_fluid_vlm.py",
+      "source_sha256": "a3501bc31360fbaee11deb924abd2b18317a41f30b600c8342ffa8e434a5f30d"
+    },
+    {
+      "path": "src/liquid_mix/rerankers.py",
+      "source_sha256": "b3280a5628249f8094e0577797f9828d0368de4c5eadf2ad594d0901c50730c4"
+    },
+    {
+      "path": "src/liquid_mix/reranking_protocol.py",
+      "source_sha256": "bd8079e13dea8f27b586109fffe799ac006acb61c1a5debffa6d13cf488d325d"
+    },
+    {
+      "path": "src/liquid_mix/statistics.py",
+      "source_sha256": "bacdef6b3d476b6605b053ff74a2016d686ec4d7a92e2ad67cc26b989464a653"
+    },
+    {
+      "path": "src/liquid_mix/__init__.py",
+      "source_sha256": "dcb7949f7b6a529adc15b0b38b314e3ad83d392a3e1bfcd79529857d90fec7dd"
+    },
+    {
+      "path": "tests/test_backbone_fluid.py",
+      "source_sha256": "b6bada5099d96034e45f87ff2f993b8696fba2ce24357e9c19bc2d9d1f65cb22"
+    },
+    {
+      "path": "tests/test_clip_fusion.py",
+      "source_sha256": "c7cf9bbf107cd5555933ff52f9382c6a29189129d79e8515be763e4f59bcbbe3"
+    },
+    {
+      "path": "tests/test_clip_lora_summary.py",
+      "source_sha256": "cbec79f988ec6013d1daebaf1dc70d0eeab61f589cc85580476894c058dbb89f"
+    },
+    {
+      "path": "tests/test_data.py",
+      "source_sha256": "14369fb0ce4fc987a48b47d4974e73b98a3531944d2a3ef17c8fd5dd0204de33"
+    },
+    {
+      "path": "tests/test_metrics.py",
+      "source_sha256": "b3050ebf7d12862bdf481004366f87ac2a857bb2fd883c90a8b643807b491aae"
+    },
+    {
+      "path": "tests/test_models.py",
+      "source_sha256": "af2203bcf4ba681252c4fb27b07d2f53bc74068ffbc3c428eb0741e1dd31f7d8"
+    },
+    {
+      "path": "tests/test_pure_fluid_vlm.py",
+      "source_sha256": "56f7425dfa4824dbaff9ce5582dac6dfc09119edf7215a785f3fb2ee66e08246"
+    },
+    {
+      "path": "tests/test_rerankers.py",
+      "source_sha256": "d6ffc065f864bb606273a7d9e32c44f51e88bd7c043c1794981f7282b9c9ec4a"
+    },
+    {
+      "path": "tests/test_statistics.py",
+      "source_sha256": "70e3a8a30ed215bf92d65ddb3a24991b313f36426ea4cfaf61c3cab57e4c98a8"
+    }
+  ],
+  "portability_edits": [],
+  "note": "Hashes identify original copied files before export-only edits. Generated release files are additional. No raw datasets/checkpoints are distributed."
+}

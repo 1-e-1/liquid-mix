@@ -1,0 +1,33 @@
+dataset:
+  name: coco2014-karpathy-5k
+  source: fixed_local_manifest
+  processed_dir: data/processed/coco2014_karpathy
+  train_limit: 10000
+  val_limit: 5000
+  test_limit: 5000
+  seed: 42
+
+clip:
+  model_name: openai/clip-vit-base-patch32
+  local_files_only: true
+  batch_size: 64
+
+adapter:
+  methods:
+    - residual_fluidmix
+  epochs: 5
+  batch_size: 64
+  lr: 0.0003
+  weight_decay: 0.0001
+  hidden_dim: 128
+  field_grid: 4
+  steps: 4
+  dt: 0.2
+  diffusion: 0.03
+  reaction: 0.5
+  num_heads: 4
+  seed: 13
+  device: auto
+  negative_offset: 17
+  gradient_clip: 1.0
+  clip_scale: 1.0

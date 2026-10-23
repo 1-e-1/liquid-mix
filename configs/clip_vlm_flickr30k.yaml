@@ -1,0 +1,43 @@
+dataset:
+  name: flickr30k-local
+  source: flickr30k_zip
+  archive: Flickr30k_Dataset.zip
+  processed_dir: data/processed/flickr30k
+  train_limit: 1000
+  val_limit: 200
+  test_limit: 200
+  seed: 42
+
+clip:
+  model_name: openai/clip-vit-base-patch32
+  local_files_only: true
+  batch_size: 32
+
+adapter:
+  methods:
+    - concat
+    - gated
+    - cross_attention
+    - liquid
+    - fluidmix
+    - residual_fluidmix
+  epochs: 40
+  batch_size: 64
+  lr: 0.0005
+  weight_decay: 0.0001
+  hidden_dim: 128
+  field_grid: 4
+  steps: 4
+  dt: 0.2
+  diffusion: 0.03
+  reaction: 0.5
+  num_heads: 4
+  seed: 13
+  device: auto
+  negative_offset: 17
+  gradient_clip: 1.0
+  clip_scale: 1.0
+  contrastive_weight: 0.2
+  contrastive_temperature: 0.07
+  contrastive_batch_size: 16
+  hard_negatives_per_positive: 3

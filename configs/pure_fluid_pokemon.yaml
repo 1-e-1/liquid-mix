@@ -1,0 +1,40 @@
+dataset:
+  name: reach-vb/pokemon-blip-captions
+  processed_dir: data/processed/pokemon_blip
+  train_limit: 240
+  val_limit: 80
+  test_limit: 80
+  seed: 42
+
+model:
+  seed: 13
+  image_size: 96
+  max_vocab: 2000
+  min_freq: 1
+  max_len: 32
+  hidden_dim: 128
+  field_grid: 4
+  text_layers: 2
+  text_heads: 4
+  dropout: 0.1
+  steps: 4
+  dt: 0.2
+  diffusion: 0.03
+  reaction: 0.5
+  num_heads: 4
+
+training:
+  device: auto
+  epochs: 80
+  batch_size: 24
+  lr: 0.001
+  weight_decay: 0.0001
+  gradient_clip: 1.0
+  contrastive_weight: 1.0
+  contrastive_temperature: 0.07
+  itm_weight: 0.5
+  hard_negatives_per_positive: 3
+  negative_offset: 17
+  pair_chunk_size: 1024
+  patience: 24
+  clip_summary: results/clip_vlm_pokemon/summary.csv
